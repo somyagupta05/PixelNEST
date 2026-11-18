@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow & Grace | Beauty Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Glow <span>&</span> Grace</div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            
+            <a href="#about">About</a>
+            <a href="#beauty-tips">Beauty Tips</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#booking" class="nav-book">Book Appointment</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            ☰
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-tagline">YOUR BEAUTY, OUR PASSION</p>
+
+            <h1>Feel Beautiful.<br>
+                <span>Be Unforgettable.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover a little luxury, a little self-care and a whole lot of confidence.
+                Your beauty journey begins here.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">Explore Services</a>
+                <a href="#booking" class="btn-secondary">Book Your Visit</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <!-- <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1000&q=85" -->
+               <img src="images/home.png"  alt="Beauty and makeup portrait">
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section-padding" id="services">
+        <div class="section-heading">
+            <p class="section-subtitle">WHAT WE OFFER</p>
+            <h2>Our Beauty Services</h2>
+            <p>Everything you need to look and feel your best.</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <!-- <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37d?auto=format&fit=crop&w=800&q=85" -->
+                 <img src="images/makeup.png"
+                     alt="Makeup services">
+                <div class="service-info">
+                    <h3>Makeup</h3>
+                    <p>Bridal, party, engagement and natural makeup for every special occasion.</p>
+                    <a href="#booking">Explore →</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <!-- <img src="https://images.unsplash.com/photo-1560869713-7d0c2c9c4c3d?auto=format&fit=crop&w=800&q=85" -->
+                 <img src="images/hair.png"
+                     alt="Hair styling">
+                <div class="service-info">
+                    <h3>Hair Care</h3>
+                    <p>Haircuts, styling, hair spa, colouring and smoothening treatments.</p>
+                    <a href="#booking">Explore →</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <!-- <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85" -->
+                 <img src="images/facial.png"
+                     alt="Facial skin care">
+                <div class="service-info">
+                    <h3>Facials & Skin Care</h3>
+                    <p>Cleanups, fruit facials, gold facials and refreshing skin treatments.</p>
+                    <a href="#booking">Explore →</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <!-- <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=800&q=85" -->
+                 <img src="images/threading.png"
+                     alt="Eyebrow beauty">
+                <div class="service-info">
+                    <h3>Threading</h3>
+                    <p>Eyebrow, upper lip, forehead and full-face threading services.</p>
+                    <a href="#booking">Explore →</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <!-- <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=85" -->
+                 <img src="images/waxing.png"
+                     alt="Waxing service">
+                <div class="service-info">
+                    <h3>Waxing</h3>
+                    <p>Rica waxing, full-body waxing and smooth skin treatments.</p>
+                    <a href="#booking">Explore →</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <!-- <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=85" -->
+                 <img src="images/nails.png"
+                     alt="Nail beauty">
+                <div class="service-info">
+                    <h3>Nails & Hand Care</h3>
+                    <p>Manicure, pedicure, nail art and nail extension services.</p>
+                    <a href="#booking">Explore →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Pricing Section -->
+<section class="pricing section-padding" id="pricing">
+
+    <div class="section-heading">
+        <p class="section-subtitle">OUR PRICE MENU</p>
+        <h2>Beauty Services & Pricing</h2>
+        <p>Little luxuries and self-care at affordable prices.</p>
+    </div>
+
+    <div class="pricing-grid">
+
+        <div class="price-card">
+            <h3>Hair Services</h3>
+            <div class="price-item"><span>Basic Haircut</span><strong>₹300</strong></div>
+            <div class="price-item"><span>Hair Wash & Blow Dry</span><strong>₹400</strong></div>
+            <div class="price-item"><span>Hair Spa</span><strong>₹999</strong></div>
+            <div class="price-item"><span>Hair Styling</span><strong>₹600</strong></div>
+            <div class="price-item"><span>Hair Colouring</span><strong>₹1,499</strong></div>
+        </div>
+
+        <div class="price-card">
+            <h3>Facial & Skin Care</h3>
+            <div class="price-item"><span>Basic Cleanup</span><strong>₹399</strong></div>
+            <div class="price-item"><span>Fruit Facial</span><strong>₹699</strong></div>
+            <div class="price-item"><span>Gold Facial</span><strong>₹999</strong></div>
+            <div class="price-item"><span>Anti-Tan Facial</span><strong>₹799</strong></div>
+            <div class="price-item"><span>Skin Polishing</span><strong>₹1,299</strong></div>
+        </div>
+
+        <div class="price-card">
+            <h3>Threading & Grooming</h3>
+            <div class="price-item"><span>Eyebrow</span><strong>₹40</strong></div>
+            <div class="price-item"><span>Upper Lip</span><strong>₹30</strong></div>
+            <div class="price-item"><span>Forehead</span><strong>₹30</strong></div>
+            <div class="price-item"><span>Full Face Threading</span><strong>₹150</strong></div>
+        </div>
+
+        <div class="price-card">
+            <h3>Waxing</h3>
+            <div class="price-item"><span>Full Arms</span><strong>₹250</strong></div>
+            <div class="price-item"><span>Half Legs</span><strong>₹250</strong></div>
+            <div class="price-item"><span>Full Legs</span><strong>₹450</strong></div>
+            <div class="price-item"><span>Underarms</span><strong>₹100</strong></div>
+            <div class="price-item"><span>Full Body Waxing</span><strong>₹1,499</strong></div>
+        </div>
+
+        <div class="price-card">
+            <h3>Makeup Services</h3>
+            <div class="price-item"><span>Natural Makeup</span><strong>₹1,499</strong></div>
+            <div class="price-item"><span>Party Makeup</span><strong>₹2,499</strong></div>
+            <div class="price-item"><span>Engagement Makeup</span><strong>₹4,999</strong></div>
+            <div class="price-item"><span>Bridal Makeup</span><strong>₹9,999</strong></div>
+        </div>
+
+        <div class="price-card">
+            <h3>Nails & Hand Care</h3>
+            <div class="price-item"><span>Basic Manicure</span><strong>₹399</strong></div>
+            <div class="price-item"><span>Basic Pedicure</span><strong>₹499</strong></div>
+            <div class="price-item"><span>Nail Art</span><strong>₹299</strong></div>
+            <div class="price-item"><span>Nail Extensions</span><strong>₹999</strong></div>
+        </div>
+
+    </div>
+
+    <p class="price-note">*Sample demo prices. Actual prices may vary.</p>
+
+</section>
+<!-- Special Offers Section -->
+<section class="offers section-padding" id="offers">
+
+    <div class="section-heading">
+        <p class="section-subtitle">EXCLUSIVE DEALS</p>
+        <h2>Special Offers & Packages</h2>
+        <p>Enjoy a little extra care with our specially curated beauty packages.</p>
+    </div>
+
+    <div class="offers-grid">
+
+        <div class="offer-card">
+            <span class="offer-tag">POPULAR</span>
+            <h3>Bridal Glow Package</h3>
+            <p>Complete bridal makeup, hairstyling and pre-bridal skincare.</p>
+            <div class="offer-price">
+                <strong>₹7,999</strong>
+                <del>₹9,999</del>
+            </div>
+            <a href="#booking" class="offer-btn">Book Package</a>
+        </div>
+
+        <div class="offer-card">
+            <span class="offer-tag">SELF CARE</span>
+            <h3>Hair & Skin Retreat</h3>
+            <p>Relax with a nourishing hair spa and refreshing facial.</p>
+            <div class="offer-price">
+                <strong>₹1,499</strong>
+                <del>₹1,999</del>
+            </div>
+            <a href="#booking" class="offer-btn">Book Package</a>
+        </div>
+
+        <div class="offer-card">
+            <span class="offer-tag">BEST VALUE</span>
+            <h3>Hands & Feet Combo</h3>
+            <p>Enjoy a manicure and pedicure for beautifully cared-for hands and feet.</p>
+            <div class="offer-price">
+                <strong>₹699</strong>
+                <del>₹899</del>
+            </div>
+            <a href="#booking" class="offer-btn">Book Package</a>
+        </div>
+
+    </div>
+
+    <p class="offer-note">*Sample promotional prices for this demo website.</p>
+
+</section>
+    <!-- About -->
+    <section class="about section-padding" id="about">
+        <div class="about-image">
+            <!-- <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d4?auto=format&fit=crop&w=1000&q=85" -->
+             <img src="images/salon.png"
+                 alt="Beauty salon interior">
+        </div>
+
+        <div class="about-content">
+            <p class="section-subtitle">ABOUT GLOW & GRACE</p>
+            <h2>A Place Where Beauty Meets Care</h2>
+
+            <p>
+                At Glow & Grace, we believe beauty is about feeling confident,
+                relaxed and special. Our salon is designed to give you a moment
+                of self-care away from your everyday routine.
+            </p>
+
+            <p>
+                From everyday grooming to your most special occasions,
+                we are here to make every visit a beautiful experience.
+            </p>
+
+            <a href="#booking" class="btn-primary">Experience Our Care</a>
+        </div>
+    </section>
+
+    <!-- Beauty Tips -->
+    <section class="beauty-tips section-padding" id="beauty-tips">
+        <div class="section-heading">
+            <p class="section-subtitle">A LITTLE SELF-CARE</p>
+            <h2>Beauty Tips & Tricks</h2>
+            <p>Simple habits that help you feel beautiful every day.</p>
+        </div>
+
+        <div class="tips-grid">
+            <div class="tip-card">
+                <h3>Skin Care</h3>
+                <p>Cleanse gently, moisturize daily and don't forget sunscreen.</p>
+            </div>
+
+            <div class="tip-card">
+                <h3>Hair Care</h3>
+                <p>Protect your hair from excessive heat and keep it nourished.</p>
+            </div>
+
+            <div class="tip-card">
+                <h3>Makeup Tips</h3>
+                <p>Prep your skin before makeup for a smoother and longer-lasting look.</p>
+            </div>
+
+            <div class="tip-card">
+                <h3>Self-Care</h3>
+                <p>Make time for yourself, rest well and embrace your natural beauty.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking section-padding" id="booking">
+        <div class="booking-content">
+            <p class="section-subtitle">YOUR MOMENT OF SELF-CARE</p>
+            <h2>Ready for a Little Glow?</h2>
+            <p>Explore our services and get in touch to request your appointment.</p>
+            <a href="#contact" class="btn-primary">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section-padding" id="contact">
+        <div class="section-heading">
+            <p class="section-subtitle">WE'D LOVE TO MEET YOU</p>
+            <h2>Get in Touch</h2>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Visit Us</h3>
+                <p>123 Beauty Lane, Bhopal, India</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Call Us</h3>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Email Us</h3>
+                <p>hello@glowandgrace.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2>Glow <span>&</span> Grace</h2>
+        <p>Beauty, confidence & a little everyday magic.</p>
+        <p class="footer-bottom">© 2026 Glow & Grace. Demo website created by PixelNEST.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
